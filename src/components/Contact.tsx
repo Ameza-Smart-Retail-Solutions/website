@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, Phone, MapPin, Users, Store, Handshake } from 'lucide-react';
+import { Mail, Phone, MapPin, ShoppingCart, Coffee, Shirt } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -18,11 +18,11 @@ const Contact = () => {
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
             <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Users className="text-white" size={32} />
+              <ShoppingCart className="text-white" size={32} />
             </div>
-            <h3 className="text-2xl font-bold text-white mb-4">Retailers</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Grocery Stores</h3>
             <p className="text-emerald-100 mb-6">
-              Discover how our smart retail solutions can transform your business operations.
+              Streamline your grocery operations with smart shelf labels and inventory management.
             </p>
             <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
               Get Demo
@@ -31,27 +31,27 @@ const Contact = () => {
 
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
             <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Store className="text-white" size={32} />
+              <Coffee className="text-white" size={32} />
             </div>
-            <h3 className="text-2xl font-bold text-white mb-4">Distributors</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Restaurants</h3>
             <p className="text-emerald-100 mb-6">
-              Partner with us to bring cutting-edge retail technology to your network of clients.
+              Enhance your restaurant's efficiency with integrated POS and menu management systems.
             </p>
             <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
-              Partnership Info
+              Learn More
             </button>
           </div>
 
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
             <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Handshake className="text-white" size={32} />
+              <Shirt className="text-white" size={32} />
             </div>
-            <h3 className="text-2xl font-bold text-white mb-4">Tech Partners</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Fashion Retail</h3>
             <p className="text-emerald-100 mb-6">
-              Integrate your services with our platform to create comprehensive retail solutions.
+              Modernize your fashion store with smart pricing and inventory tracking solutions.
             </p>
             <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
-              Integration Guide
+              Explore Solutions
             </button>
           </div>
         </div>
