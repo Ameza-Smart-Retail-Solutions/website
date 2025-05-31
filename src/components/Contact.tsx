@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, Phone, MapPin, ShoppingCart, Coffee, Shirt } from 'lucide-react';
+import { Mail, Phone, MapPin, Tag, Package, DollarSign } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -11,18 +11,18 @@ const Contact = () => {
             Let's <span className="text-red-400">Connect</span>
           </h2>
           <p className="text-xl text-emerald-100 max-w-3xl mx-auto">
-            Ready to transform your retail business? Get in touch today.
+            Ready to transform your grocery business? Get in touch today.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
             <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-              <ShoppingCart className="text-white" size={32} />
+              <Tag className="text-white" size={32} />
             </div>
-            <h3 className="text-2xl font-bold text-white mb-4">Grocery Stores</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Electronic Shelf Labels</h3>
             <p className="text-emerald-100 mb-6">
-              Streamline your grocery operations with smart shelf labels and inventory management.
+              Automate pricing updates with digital shelf labels that sync instantly with your POS system.
             </p>
             <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
               Get Demo
@@ -31,11 +31,11 @@ const Contact = () => {
 
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
             <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Coffee className="text-white" size={32} />
+              <Package className="text-white" size={32} />
             </div>
-            <h3 className="text-2xl font-bold text-white mb-4">Restaurants</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Inventory Management</h3>
             <p className="text-emerald-100 mb-6">
-              Enhance your restaurant's efficiency with integrated POS and menu management systems.
+              Real-time stock tracking and automated reordering to prevent stockouts and reduce waste.
             </p>
             <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
               Learn More
@@ -44,11 +44,11 @@ const Contact = () => {
 
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
             <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Shirt className="text-white" size={32} />
+              <DollarSign className="text-white" size={32} />
             </div>
-            <h3 className="text-2xl font-bold text-white mb-4">Fashion Retail</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Smart Pricing</h3>
             <p className="text-emerald-100 mb-6">
-              Modernize your fashion store with smart pricing and inventory tracking solutions.
+              AI-powered price optimization based on demand, competition, and inventory levels.
             </p>
             <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
               Explore Solutions
