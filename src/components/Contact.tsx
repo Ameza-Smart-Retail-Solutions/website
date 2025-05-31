@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Mail, Phone, MapPin, Users, Handshake, TrendingUp } from 'lucide-react';
+import { Mail, Phone, MapPin, Users } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -11,38 +10,12 @@ const Contact = () => {
             Let's <span className="text-red-400">Connect</span>
           </h2>
           <p className="text-xl text-emerald-100 max-w-3xl mx-auto">
-            Ready to transform your retail business? Looking to invest or partner with us? Get in touch today.
+            Ready to transform your retail business? Get in touch today.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
-            <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-              <TrendingUp className="text-white" size={32} />
-            </div>
-            <h3 className="text-2xl font-bold text-white mb-4">Investors</h3>
-            <p className="text-emerald-100 mb-6">
-              Join us in revolutionizing the retail industry with innovative technology solutions.
-            </p>
-            <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
-              Investment Opportunities
-            </button>
-          </div>
-
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
-            <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Handshake className="text-white" size={32} />
-            </div>
-            <h3 className="text-2xl font-bold text-white mb-4">Partners</h3>
-            <p className="text-emerald-100 mb-6">
-              Partner with us for payment processing, integrations, and expanding our ecosystem.
-            </p>
-            <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
-              Partnership Inquiry
-            </button>
-          </div>
-
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
+        <div className="flex justify-center mb-16">
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center max-w-md">
             <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
               <Users className="text-white" size={32} />
             </div>
