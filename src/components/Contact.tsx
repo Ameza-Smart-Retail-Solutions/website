@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { Mail, Phone, MapPin, Users } from 'lucide-react';
+import { Mail, Phone, MapPin, Users, Store, Handshake } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -14,8 +15,8 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="flex justify-center mb-16">
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center max-w-md">
+        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
             <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
               <Users className="text-white" size={32} />
             </div>
@@ -25,6 +26,32 @@ const Contact = () => {
             </p>
             <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
               Get Demo
+            </button>
+          </div>
+
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
+            <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+              <Store className="text-white" size={32} />
+            </div>
+            <h3 className="text-2xl font-bold text-white mb-4">Distributors</h3>
+            <p className="text-emerald-100 mb-6">
+              Partner with us to bring cutting-edge retail technology to your network of clients.
+            </p>
+            <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+              Partnership Info
+            </button>
+          </div>
+
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
+            <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+              <Handshake className="text-white" size={32} />
+            </div>
+            <h3 className="text-2xl font-bold text-white mb-4">Tech Partners</h3>
+            <p className="text-emerald-100 mb-6">
+              Integrate your services with our platform to create comprehensive retail solutions.
+            </p>
+            <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+              Integration Guide
             </button>
           </div>
         </div>
