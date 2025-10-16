@@ -10,11 +10,11 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                Smart Retail Solutions for the{' '}
+                Empowering Small Businesses for the{' '}
                 <span className="text-red-400">Future</span>
               </h1>
               <p className="text-xl lg:text-2xl text-emerald-100 leading-relaxed">
-                Revolutionizing retail with integrated electronic shelf labels, advanced POS systems, and intelligent inventory management.
+                Transforming independent retailers with seamless technology that simplifies operations, maximizes profits, and delights customers.
               </p>
             </div>
             
@@ -35,9 +35,9 @@ const Hero = () => {
                 <div className="bg-red-600 p-3 rounded-lg">
                   <ShoppingCart className="text-white" size={24} />
                 </div>
-                <h3 className="text-xl font-semibold">Electronic Shelf Labels</h3>
+                <h3 className="text-xl font-semibold">Smart Pricing</h3>
               </div>
-              <p className="text-emerald-100">Dynamic pricing and real-time inventory updates</p>
+              <p className="text-emerald-100">Stay competitive with intelligent pricing that adapts to market conditions</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 transform hover:scale-105 transition-all duration-300">
@@ -45,9 +45,9 @@ const Hero = () => {
                 <div className="bg-red-600 p-3 rounded-lg">
                   <CreditCard className="text-white" size={24} />
                 </div>
-                <h3 className="text-xl font-semibold">Advanced POS Systems</h3>
+                <h3 className="text-xl font-semibold">Seamless Payments</h3>
               </div>
-              <p className="text-emerald-100">Comprehensive point-of-sale solutions</p>
+              <p className="text-emerald-100">Accept payments effortlessly with modern checkout solutions</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 transform hover:scale-105 transition-all duration-300">
