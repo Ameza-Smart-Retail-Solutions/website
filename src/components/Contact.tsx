@@ -20,9 +20,9 @@ const Contact = () => {
             <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
               <Tag className="text-white" size={32} />
             </div>
-            <h3 className="text-2xl font-bold text-white mb-4">Electronic Shelf Labels</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">End-to-End Solutions</h3>
             <p className="text-emerald-100 mb-6">
-              Automate pricing updates with digital shelf labels that sync instantly with your POS system.
+              Complete retail transformation for businesses of any size, from small shops to large chains.
             </p>
             <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
               Get Demo
@@ -68,7 +68,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Email</div>
-                    <div className="text-gray-600">contact@ameza.com</div>
+                    <div className="text-gray-600">myildiz@amezasolutions.com</div>
+                    <div className="text-gray-600">myildiz@ameza.solutions</div>
                   </div>
                 </div>
 
@@ -78,7 +79,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Phone</div>
-                    <div className="text-gray-600">+1 (555) 123-4567</div>
+                    <div className="text-gray-600">+1 617 906 13 07</div>
                   </div>
                 </div>
 
@@ -88,7 +89,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">Address</div>
-                    <div className="text-gray-600">123 Innovation Drive<br />Tech Hub, CA 94105</div>
+                    <div className="text-gray-600">3300 Wells Branch Pkwy<br />Austin, Texas, USA</div>
                   </div>
                 </div>
               </div>

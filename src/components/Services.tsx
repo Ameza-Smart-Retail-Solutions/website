@@ -6,9 +6,9 @@ const Services = () => {
   const services = [
     {
       icon: <Monitor size={40} />,
-      title: "Electronic Shelf Labels",
-      description: "Digital price tags with real-time updates, promotional displays, and inventory tracking integration.",
-      features: ["Real-time pricing", "Promotional displays", "Inventory sync", "Energy efficient"]
+      title: "Smart Pricing Solutions",
+      description: "AI-powered dynamic pricing with real-time market analysis, demand forecasting, and competitive intelligence.",
+      features: ["Dynamic pricing", "Demand forecasting", "Competitor analysis", "Revenue optimization"]
     },
     {
       icon: <Smartphone size={40} />,
@@ -24,9 +24,9 @@ const Services = () => {
     },
     {
       icon: <Shield size={40} />,
-      title: "Security Solutions",
-      description: "Comprehensive security systems including loss prevention and access control.",
-      features: ["Loss prevention", "Access control", "Video monitoring", "Alert systems"]
+      title: "End-to-End Solutions",
+      description: "Complete retail transformation from front-end customer experience to back-end operations management.",
+      features: ["Full-stack integration", "Scalable architecture", "Custom workflows", "Ongoing optimization"]
     },
     {
       icon: <Zap size={40} />,

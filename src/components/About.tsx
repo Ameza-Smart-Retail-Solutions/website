@@ -14,8 +14,8 @@ const About = () => {
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
                 AMEZA is revolutionizing the retail industry with cutting-edge smart retail solutions. 
-                We combine the power of electronic shelf labels with comprehensive POS systems and 
-                intelligent inventory management to create a unified retail ecosystem.
+                We deliver comprehensive systems that seamlessly integrate pricing, inventory, and point-of-sale 
+                operations to create a unified retail ecosystem that drives efficiency and growth.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Our integrated approach goes beyond what traditional solutions like Square and Clover 
