@@ -2,9 +2,15 @@ FROM node:22
 
 RUN npm install -g serve
 
+WORKDIR /tmp
+
+COPY . ./
+RUN npm install && npm run build
+
 WORKDIR /app
 
-COPY ./dist .
+RUN cp -r /tmp/dist/* ./
+RUN rm -rf /tmp/*
 
 EXPOSE 80
 
