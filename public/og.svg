@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Logo -->
+  <circle cx="150" cy="150" r="80" fill="white" opacity="0.9"/>
+  <text x="150" y="170" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="#2563eb">A</text>
+  
+  <!-- Title -->
+  <text x="300" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white">Ameza</text>
+  <text x="300" y="180" font-family="Arial, sans-serif" font-size="28" fill="white" opacity="0.9">Smart Retail: ESL + POS for Community Grocers</text>
+  
+  <!-- Description -->
+  <text x="300" y="250" font-family="Arial, sans-serif" font-size="20" fill="white" opacity="0.8">Enterprise-grade electronic shelf labels, unified POS &amp; inventory,</text>
+  <text x="300" y="280" font-family="Arial, sans-serif" font-size="20" fill="white" opacity="0.8">and promotions built for local grocers.</text>
+  
+  <!-- URL -->
+  <text x="300" y="350" font-family="Arial, sans-serif" font-size="18" fill="white" opacity="0.7">ameza.solutions</text>
+</svg>
