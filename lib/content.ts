@@ -156,7 +156,7 @@ export const faqItems: FaqItem[] = [
     {
         id: "installation",
         question: "How long does installation take?",
-        answer: "Most stores can be fully installed in 3–5 hours depending on tag count. We pre-configure all hardware before shipping to make the process as fast as possible.",
+        answer: "Most stores can be fully installed in 3-5 hours depending on tag count. We pre-configure all hardware before shipping to make the process as fast as possible.",
     },
     {
         id: "connectivity",
@@ -166,7 +166,7 @@ export const faqItems: FaqItem[] = [
     {
         id: "battery-life",
         question: "How long do the tag batteries last?",
-        answer: "Typically 3–5 years, depending on how frequently you update your prices.",
+        answer: "Typically 3-5 years, depending on how frequently you update your prices.",
     },
     {
         id: "gateway-capacity",
@@ -196,7 +196,7 @@ export const faqItems: FaqItem[] = [
     {
         id: "cost",
         question: "How much does Ameza cost?",
-        answer: "Pricing depends on the number of tags and store size. Most small grocery stores spend between $5,000–$10,000, which includes all hardware and monthly software fees.",
+        answer: "Pricing depends on the number of tags and store size. Most small grocery stores spend between $5,000-$10,000, which includes all hardware and monthly software fees.",
     },
     {
         id: "contract",
