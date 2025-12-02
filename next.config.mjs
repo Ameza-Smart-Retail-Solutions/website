@@ -2,8 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        loader: "custom",
-        loaderFile: "./imageLoader.ts",
+        unoptimized: true,
     },
 };
 
