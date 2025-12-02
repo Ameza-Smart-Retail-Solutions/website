@@ -42,7 +42,7 @@ jobs:
                   apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
                   accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
                   projectName: "ameza-website"
-                  directory: ".vercel/output/static"
+                  directory: "./.vercel/output/static"
                   gitHubToken: ${{ secrets.GITHUB_TOKEN }}
                   branch: ${{ github.ref_name }}
 
