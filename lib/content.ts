@@ -161,7 +161,7 @@ export const faqItems: FaqItem[] = [
 ];
 
 export const stats: Stat[] = [
-    { label: "Retail Partners", value: "50+", iconSrc: "/vector.png" },
+    { label: "Retail Partners", value: "50+", iconSrc: "/Vector.png" },
     { label: "Uptime", value: "99.9%", iconSrc: "/vector2.png" },
     { label: "Payments Processed", value: "$2.5M+", iconSrc: "/vector3.png" },
 ];
