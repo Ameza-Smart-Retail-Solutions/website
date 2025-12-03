@@ -13,7 +13,7 @@ jobs:
     build-deploy:
         runs-on: ubuntu-latest
         env:
-            NEXT_PUBLIC_API_URL: ${{ vars.NEXT_PUBLIC_API_URL }}
+            NEXT_PUBLIC_CONTACT_ENDPOINT: ${{ vars.NEXT_PUBLIC_CONTACT_ENDPOINT }}
         permissions:
             contents: read
             deployments: write
